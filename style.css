@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Shalimar&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     background-color: #FFF8EA;
+     font-family: 'Lora', serif !important;
+     color: #3D3C42;
+}
+
+header {
+     height: 200px;
+     background-color: #9E7676;
+     color: #FFF8EA;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+header h1 {
+     font-family: 'Shalimar', cursive;
+     font-size: 5.5em;
+}
+
+nav {
+     text-align: center;
+     padding: 1rem 0 1.2rem;
+     background-color: #815B5B;
+}
+
+nav a {
+     color: #FFF8EA;
+     text-decoration: none;
+     margin: 0 15px;
+     font-size: 1.1em;
+     font-weight: 600;
+}
+
+nav a:hover {
+     border-bottom: 2px solid #FFF8EA
+}
+
+.wrapper {
+     display: flex;
+     justify-content: center;
+     padding: 1rem 2rem;
+     width: 1250px;
+     margin: 0 auto;
+}
+
+.wrapper .content {
+     width: 75%;
+     padding: 1rem;
+}
+
+.wrapper .content h1 {
+     margin-bottom: 1rem;
+     font-size: 1.6em;
+}
+
+.mb-1 {
+     margin-bottom: 2rem;
+}
+
+.wrapper .content .mb-1 p {
+     padding-right: 1.5rem;
+}
+
+.wrapper .content .mb-1 ul {
+     padding-left: 2.5rem;
+}
+
+.wrapper .content .mb-1 li {
+     font-size: 1.1em;
+     font-weight: 600;
+}
+
+.wrapper .content .mb-1 table,
+th,
+td {
+     border: 1px solid #815B5B;
+     border-collapse: collapse;
+}
+
+.wrapper .content .mb-1 th,
+td {
+     width: 160px;
+     padding: 0.5rem 1rem;
+     font-size: 1.1em;
+     text-align: center;
+}
+
+.wrapper .content .mb-1 th {
+     font-weight: 800;
+}
+
+.wrapper .content .mb-1 td {
+     font-weight: 600;
+}
+
+.wrapper .content .mb-1 td a {
+     text-decoration: none;
+     color: #594545;
+     font-weight: 700;
+}
+
+.text-center {
+     text-align: center;
+}
+
+.wrapper .content form {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 1.5rem;
+}
+
+.wrapper .content input,
+textarea {
+     width: 350px;
+     padding: 0.7rem 1rem;
+     border: 0.5px solid #594545;
+     border-radius: 11px;
+     font-size: 0.90em;
+     margin-bottom: 1rem;
+     resize: none;
+     font-family: 'Lora', serif;
+}
+
+.wrapper .content input:focus,
+textarea:focus {
+     outline: none;
+}
+
+.wrapper .content button {
+     padding: 0.6rem 1rem;
+     width: 100px;
+     border: none;
+     border-radius: 11px;
+     background-color: #594545;
+     color: #FFF8EA;
+     font-family: 'Lora', serif;
+     font-size: 1em;
+     font-weight: 600;
+     text-transform: uppercase;
+}
+
+.wrapper .content .blogs {
+     padding: 1rem 1rem 1rem 0;
+}
+
+.wrapper .content article, .blogs article {
+     padding-bottom: 1rem;
+     margin-bottom: 1.5rem;
+     border-bottom: 0.5px solid #594545;
+}
+
+.wrapper .content article h2, .blogs h2 {
+     margin-bottom: 0.7rem;
+}
+
+.wrapper .content .gallery {
+     display: grid;
+     grid-template-columns: auto auto auto;
+     grid-gap: 1rem;
+     margin-top: 1.5rem;
+}
+
+.wrapper .content .gallery img {
+     width: 100%;
+}
+
+.wrapper .content .projects {
+     margin: 1rem auto 3rem;
+}
+
+.wrapper aside {
+     width: 25%;
+     padding: 1rem 0 1rem 1rem;
+     border-left: 2px solid #815B5B;
+}
+
+
+
+.wrapper aside .links-wrapper {
+     padding: 1rem 1rem 0;
+}
+
+.wrapper aside .links-wrapper ul {
+     padding: 0.8rem 0 2rem 0.8rem;
+}
+
+.wrapper aside .links-wrapper li a {
+     font-weight: 600;
+     text-decoration: none;
+     color: #594545;
+}
+
+.wrapper aside .links-wrapper li a:hover {
+     text-decoration: underline;
+}
+
+.wrapper aside .contact h2,
+.address h2,
+.social-media h2 {
+     margin-bottom: 0.7rem;
+}
+
+.wrapper aside .contact a,
+.social-media a {
+     text-decoration: none;
+     font-weight: 600;
+     color: #594545;
+     display: block;
+     margin-top: 0.4rem;
+}
+
+.wrapper aside .contact a:hover,
+.social-media a:hover {
+     text-decoration: underline;
+}
+
+footer {
+     margin: 2rem 0 1rem;
+     text-align: center;
+}
+
+footer a {
+     text-decoration: none;
+     font-weight: 600;
+     color: #594545;
+}
