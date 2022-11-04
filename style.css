@@ -87,10 +87,10 @@ td {
 
 .wrapper .content .mb-1 th,
 td {
-     width: 160px;
      padding: 0.5rem 1rem;
      font-size: 1.1em;
      text-align: center;
+     width: 185px;
 }
 
 .wrapper .content .mb-1 th {
@@ -321,7 +321,6 @@ textarea:focus {
 }
 
 .wrapper aside .links-wrapper .all-projects {
-     margin-top: 1.2rem;
      padding: 10px 20px;
      border: 0;
      border-radius: 25px;
